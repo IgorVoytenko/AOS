@@ -1,4 +1,201 @@
-.header {
-	background: url(static/front.png) no-repeat center center fixed;
-    background-size: cover;
+body::-webkit-scrollbar {
+    width: 10px;
 }
+  
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+    border-radius: 10px;
+}
+  
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #00c6fb, #005bea);
+}
+
+.header {
+	background: url(static/front.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.navbar {	
+    background: transparent !important;
+    color: white !important;
+}
+
+.navbar-nav {
+    margin-right: 15%;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+    top: 0;
+}
+
+.btn {
+    margin-right: 5%;
+}
+
+.switcher {
+    background-color: transparent !important;
+    color: white; 
+    border: 0;
+    margin-right: 1%;
+}
+
+.textContent {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.redText {
+    color: red;
+}
+
+.headerText {
+    color: white;
+    margin-bottom: 5%;
+}
+
+.learnMore {
+    margin-top: 10%;
+    background-color: black;
+    color: white;
+    padding: 1%;
+    border: 2px solid red;
+}
+
+.imgHeader {
+    margin-top: 10%;
+}
+
+.rf {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news {
+    background-image: url(./static/newsBack.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.blockNews {
+    padding-top: 1%;
+    padding-top: auto;
+    padding-bottom: auto;
+    justify-content: center;
+}
+
+.headNews {
+    padding-left: 3%;
+    color: black;
+    word-spacing: 20px;
+    font-size: bold;
+    text-align: right;
+}
+
+.Line {
+    clip-path: polygon(2% 0, 100% 0, 98% 100%, 0% 100%);
+    border: 8px solid #0091d3;
+    opacity: 1;
+}
+
+.newsButton {
+    background-color: #0091d3;
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
+    border: 0;
+    height: 40px;
+    width: 240px;
+    color: white
+}
+
+.newsContent {
+    margin-bottom: 2%;
+}
+
+.cardsBody {
+    margin-top: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(161,21,207, 0);
+    border: 0;
+}
+
+.card-body {
+    background-color: #0091d3;
+    clip-path: polygon(0 0, 100% 0, 100% 82%, 85% 100%, 0 100%, 0% 50%);
+}
+
+.newsTitle {
+    text-decoration: underline;
+}
+
+.date {
+    text-align: right;
+    padding-right: 6%;
+}
+
+.events {
+    background-image: url(./static/eventsFront.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.cEvents {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(161,21,207, 0);
+    border: 0;
+}
+
+.cbEvents {
+    background-color: black;
+    clip-path: polygon(0 0, 100% 0, 100% 52%, 85% 100%, 0 100%, 0% 50%);
+}
+
+.titleEvents {
+    color: red;
+    text-align: center;
+}
+
+.league {
+    background-image: url(./static/leagueBack.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.cLeague {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(161,21,207, 0);
+    border: 0;
+}
+
+.cbLeague {
+    background-color: black;
+    clip-path: polygon(0 0, 100% 0, 100% 82%, 85% 100%, 0 100%, 0% 50%);
+    color: white;
+}
+
+.textLeague {
+    color: red;
+}
+
+.lineLeague {
+    border: 2px solid red;
+    opacity: 1;
+    width: 60px;
+}
+
